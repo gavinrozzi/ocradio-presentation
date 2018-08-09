@@ -1,0 +1,16 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Reimagining the police scanner in the era of the SDR"
+disableKinds = ["sitemap", "RSS"]
+theme = "reveal-hugo"
+
+[author]
+name = "Gavin Rozzi"
+
+[params.reveal_hugo]
+history = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
